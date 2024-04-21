@@ -7,8 +7,9 @@ import { AuthContext } from './Provider/AuthProovider'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthContext>
-      <RouterProvider router={router} />
-    </AuthContext>
+    {/* <AuthContext>
+       
+    </AuthContext> */}
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
