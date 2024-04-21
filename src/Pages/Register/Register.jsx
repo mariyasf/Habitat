@@ -48,10 +48,11 @@ const Register = () => {
 
                 // Email Verification
 
-                sendEmailVerification(result.user)
-                    .then(() => {
-                        alert("Please check your email and verify your account")
-                    })
+                // sendEmailVerification(result.user)
+                //     .then(() => {
+                //         alert("Please check your email and verify your account")
+                //     })
+                e.target.reset();
 
             })
             .catch(error => {

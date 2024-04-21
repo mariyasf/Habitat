@@ -1,7 +1,15 @@
-import { Link } from "react-router-dom";
+import { useContext, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProviders";
+import { IoEye, IoEyeOff } from "react-icons/io5";
 
 
 const Login = () => {
+    const { signIn } = useContext(AuthContext);
+    const [showPass, setShowPass] = useState(false);
+    const location = useLocation();
+    const navigate = useNavigate();
+
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -11,7 +19,16 @@ const Login = () => {
         const password = form.get('password');
 
         console.log(email, password)
+        signIn(email, password)
+            .then(result => {
+                console.log(result.user)
 
+                // NAvigate after login
+                navigate(location?.state ? location.state : '/')
+            })
+            .catch(error => {
+                console.log(error)
+            })
 
     }
 
@@ -36,7 +53,21 @@ const Login = () => {
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="password" name="password" placeholder="password" className="input input-bordered" required />
+                                <div className='relative gap-2'>
+                                    <input
+                                        type={showPass ? "text" : "password"}
+                                        name="password"
+                                        placeholder="password"
+                                        className="input input-bordered w-full"
+                                        required />
+                                    {/* Toggle Show password */}
+                                    <span className="absolute top-1/3 text-black text-xl"
+                                        onClick={() => setShowPass(!showPass)}>
+                                        {showPass ? <IoEyeOff /> : <IoEye />}</span>
+                                </div>
+
+
+
                                 <label className="label">
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
