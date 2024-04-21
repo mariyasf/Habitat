@@ -4,6 +4,7 @@ import { AuthContext } from '../../Provider/AuthProviders';
 import { IoEye, IoEyeOff } from 'react-icons/io5';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { sendEmailVerification } from 'firebase/auth';
 
 const Register = () => {
     const { createNewUser } = useContext(AuthContext);
@@ -44,6 +45,14 @@ const Register = () => {
             .then(result => {
                 console.log(result.user);
                 toast.success('Registration successful! You can now log in.');
+
+                // Email Verification
+
+                sendEmailVerification(result.user)
+                    .then(() => {
+                        alert("Please check your email and verify your account")
+                    })
+
             })
             .catch(error => {
                 console.error(error);
