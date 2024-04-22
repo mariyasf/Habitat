@@ -13,7 +13,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <h2 className='font-bold uppercase text-2xl text-blue-900'>About Us</h2>
+                    <h2 className='font-bold uppercase text-2xl text-sky-500'>About Us</h2>
                 </div>
                 <div>
                     <hr className='border border-blue-100 ' />
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
 
                 <div className='flex-1 space-y-3 mx-10'>
-                    <h2 className='uppercase pt-5 text-2xl font-bold text-blue-900'>OUR HOTELS</h2>
+                    <h2 className='uppercase pt-5 text-2xl font-bold text-sky-500'>OUR HOTELS</h2>
                     <p className='font-poppins text-xl'>
                         Discover our exceptional collection of hotels located in Northern Virginia.
                         We are dedicated to delivering outstanding experiences at each of our properties,
@@ -46,7 +46,7 @@ const About = () => {
                 </div>
 
                 <div className='flex-1 space-y-3 mx-10'>
-                    <h2 className='uppercase pt-5 text-2xl font-bold text-blue-900'>WORLD-CLASS ACCOMMODATIONS</h2>
+                    <h2 className='uppercase pt-5 text-2xl font-bold text-sky-500'>WORLD-CLASS ACCOMMODATIONS</h2>
                     <p className='font-poppins  text-xl'>
                         Nestled in modern opulence, Legacy Hotel's 150 guest rooms beckon with contemporary allure,
                         inviting guests to unwind and awaken revitalized for the day ahead. With sleek design
@@ -65,7 +65,7 @@ const About = () => {
                 </div>
 
                 <div className='flex-1 space-y-3 mx-10'>
-                    <h2 className='uppercase pt-5 text-2xl font-bold text-blue-900'>CULINARY EXCELLENCE</h2>
+                    <h2 className='uppercase pt-5 text-2xl font-bold text-sky-500'>CULINARY EXCELLENCE</h2>
                     <p className='font-poppins text-xl'>
                         Indulge your senses in our culinary haven, where every dish is a masterpiece crafted with passion and precision.
                         From locally-sourced ingredients to innovative flavor combinations, our chefs elevate dining to an art form.
@@ -85,7 +85,7 @@ const About = () => {
                 </div>
 
                 <div className='flex-1 space-y-3 mx-10'>
-                    <h2 className='uppercase pt-5 text-2xl font-bold text-blue-900'>LEGENDARY EVENTS</h2>
+                    <h2 className='uppercase pt-5 text-2xl font-bold text-sky-500'>LEGENDARY EVENTS</h2>
                     <p className='font-poppins text-xl'>
                         Elevate your gatherings to unforgettable experiences with our legendary events.
                         From glamorous galas to intimate soirées, our expert event planners ensure every detail is perfect.

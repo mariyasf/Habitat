@@ -22,7 +22,7 @@ const CustomerReview = () => {
                 </div>
 
                 <div>
-                    <h2 className='font-bold uppercase text-2xl text-blue-900'>Customer Reviews</h2>
+                    <h2 className='font-bold uppercase text-2xl text-sky-500'>Customer Reviews</h2>
                 </div>
                 <div>
                     <hr className='border border-blue-100 ' />
