@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Grand Hotel",
+        "category": "luxury",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/231300083.jpg?k=471f6a0d6d08b075b2a43f2bff5b7767335500e942309a797b1ed5bf58633fc5&o=&hp=1"
+    },
+    {
+        "id": 2,
+        "name": "Sunset Resort",
+        "category": "resort",
+        "image": "https://static.wixstatic.com/media/ab0650_3c2e11087f8f466c917ebaf026ebb5fd~mv2.jpg/v1/fill/w_640,h_510,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ab0650_3c2e11087f8f466c917ebaf026ebb5fd~mv2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "City Lights Inn",
+        "category": "urban",
+        "image": "https://www.kayak.com/rimg/kimg/e0/5c/4cdb6c52545a3795.jpg?width=1366&height=768&crop=true"
+    },
+    {
+        "id": 4,
+        "name": "Mountain View Lodge",
+        "category": "scenic",
+        "image": "https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA67f8445f1579281282e92511cb8c77d0dcda7f236c4dacf9c84c4f0f3b6bb43991d6a58147a2ef00d70af67ee421c533e7cc?w=540&h=405&fit=crop&auto=enhance,format,compress&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Beachfront Retreat",
+        "category": "seaside",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/478431782.jpg?k=58bc2c358c33d53fcd67f8b1542cd480bc4e982c91db9e4f5ca92f1a2e3fb41d&o=&hp=1"
+    }
+]
