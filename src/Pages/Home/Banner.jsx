@@ -28,10 +28,11 @@ const Banner = () => {
                 slides.map((slide, index) => (
                     <div key={index}
                         id={`slide${index}`}
-                        className={`carousel-item relative w-full h-[500px] ${index === currentSlide ? 'block' : 'hidden'}`}>
+                        className={`carousel-item relative w-full h-[500px]
+                         ${index === currentSlide ? 'block' : 'hidden'}`}>
 
                         <img src={slide.image}
-                            className="w-full"
+                            className="w-full h-[500px]"
                             alt={`Slide ${index + 1}`} />
 
                         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black opacity-150"></div>

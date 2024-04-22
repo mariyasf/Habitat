@@ -2,10 +2,12 @@ import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProviders";
 import { IoEye, IoEyeOff } from "react-icons/io5";
+import { FaFacebook, FaGithub, FaGoogle } from "react-icons/fa";
+
 
 
 const Login = () => {
-    const { signIn } = useContext(AuthContext);
+    const { signIn, handleGoogleSignIn, user, handleGithubSignIn } = useContext(AuthContext);
     const [showPass, setShowPass] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
@@ -30,6 +32,29 @@ const Login = () => {
                 console.log(error)
             })
 
+    }
+    const handleGoogle = () => {
+        handleGoogleSignIn()
+            .then(result => {
+                console.log(result.user)
+                // NAvigate after login
+                navigate(location?.state ? location.state : '/')
+            })
+            .catch(error => {
+                console.error(error)
+            })
+
+    }
+    const handleGithub = () => {
+        handleGithubSignIn()
+            .then(result => {
+                console.log(result.user)
+                // NAvigate after login
+                navigate(location?.state ? location.state : '/')
+            })
+            .catch(error => {
+                console.error(error)
+            })
     }
 
 
@@ -77,9 +102,24 @@ const Login = () => {
                             </div>
                         </form>
 
+
                         <p className="text-center pb-4">
                             Don`t have an account? Please  <Link to={'/register'} className=" text-blue-600 font-bold">Register</Link>
                         </p>
+
+                        <div className="pt-5 mb-4 border-t-2 text-center font-bold font-poppins">
+                            <h2>Continue With</h2>
+
+                        </div>
+
+                        <div className="mx-auto space-x-5 text-2xl mb-5">
+                            <button onClick={handleGoogle}>
+                                <FaGoogle />
+                            </button>
+                            <button onClick={handleGithub}>
+                                <FaGithub />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

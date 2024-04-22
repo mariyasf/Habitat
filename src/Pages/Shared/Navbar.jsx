@@ -1,11 +1,10 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProviders";
 import profile from '../../assets/images/user.png'
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
-    console.log('YES', user);
 
     const handleSignOut = () => {
         logOut()
@@ -16,8 +15,6 @@ const Navbar = () => {
     const navLink = <>
         <li><Link to={'/'}>Home</Link></li>
         <li><Link to={'/'}>About Us</Link></li>
-        <li><Link to={'/register'}>Register</Link></li>
-        <li><Link to={'/Login'}>Login</Link></li>
 
     </>
     return (
@@ -33,24 +30,36 @@ const Navbar = () => {
                 </div>
                 <a className="btn btn-ghost text-xl">Habitat</a>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex font-bold">
                 <ul className="menu menu-horizontal px-1">
                     {navLink}
                 </ul>
             </div>
             <div className="navbar-end">
 
-                
-
                 {
                     user ?
                         <>
-                            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                                <div className="w-10 rounded-full">
-                                    <img alt="Tailwind CSS Navbar component" src={profile} />
+                            <div className="dropdown dropdown-end">
+                                {/* Profile image */}
+                                <div
+                                    tabIndex={0}
+                                    role="button"
+                                    className="btn btn-ghost btn-circle avatar"
+                                >
+
+                                    <div className="w-10 rounded-full">
+                                        <img alt="Profile" src={profile} />
+                                    </div>
+
                                 </div>
+
+                                <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li><a>Update</a></li>
+                                    <li><a onClick={handleSignOut}>Logout</a></li>
+                                </ul>
+
                             </div>
-                            <button onClick={handleSignOut} className="btn">Logout</button>
                         </>
                         :
                         <Link to={'/login'}>
