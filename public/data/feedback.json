@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "title": "Exceptional Service",
+        "feedback": "I had an amazing experience at your hotel. The staff was incredibly friendly and accommodating. The room was clean and comfortable, and the amenities were top-notch. I will definitely be returning!"
+    },
+    {
+        "id": 2,
+        "name": "Emily Smith",
+        "title": "Unforgettable Vacation",
+        "feedback": "Our family had a fantastic time at your resort. The facilities were fantastic, the food was delicious, and the entertainment options kept us all entertained. Thank you for making our vacation unforgettable!"
+    },
+    {
+        "id": 3,
+        "name": "David Johnson",
+        "title": "Highly Recommended",
+        "feedback": "I stayed at your vacation rental last weekend, and I was thoroughly impressed. The property was beautiful, the location was perfect, and the hosts were gracious and attentive. I highly recommend it to anyone looking for a peaceful getaway."
+    },
+    {
+        "id": 4,
+        "name": "Sarah Williams",
+        "title": "Perfect Stay",
+        "feedback": "My stay at your lodge exceeded all expectations. The atmosphere was cozy, the staff was friendly, and the surroundings were breathtaking. It was the perfect retreat from the hustle and bustle of city life."
+    },
+    {
+        "id": 5,
+        "name": "Michael Brown",
+        "title": "Amazing Experience",
+        "feedback": "I recently attended an event at your hotel, and I must say it was an amazing experience. The venue was beautiful, the food was delicious, and the service was impeccable. Thank you for making our event a success!"
+    }
+]
