@@ -1,38 +1,34 @@
 import { useParams } from "react-router-dom";
-import UseDetalilsData from "../Hooks/UseDetalilsData";
 import { MdAddIcCall, MdFreeBreakfast, MdOutlineDinnerDining, MdOutlineFitnessCenter, MdRoomService } from "react-icons/md";
-import { CiLocationOn } from "react-icons/ci";
 import { FaFeatherPointed, FaLocationDot, FaPersonWalkingLuggage, FaTruckPlane } from "react-icons/fa6";
 import { RiHotelFill } from "react-icons/ri";
-import { FaPlaceOfWorship, FaPlane, FaSpa, FaWifi } from "react-icons/fa";
+import { FaPlaceOfWorship, FaSpa, FaWifi } from "react-icons/fa";
 import { SiSecurityscorecard } from "react-icons/si";
 import s1 from '../assets/images/s1.png'
-import { GoogleMap } from "@react-google-maps/api";
-import { LuPlane } from "react-icons/lu";
 import { TiTick } from "react-icons/ti";
+import UseDetalilsData from "../Hooks/UseDetalilsData";
 
 const Details = () => {
-    const { data } = UseDetalilsData();
-    const { id } = useParams();
+    const { id, segment_name } = useParams();
+    const { data } = UseDetalilsData(segment_name.toLowerCase());
 
-    // Check if data exists and find the hotel with the matching id
+    console.log('Frome details', segment_name.toLowerCase(), id);
+    console.log('Details: ', data);
+
     const selectedHotel = data.find((hotel) => hotel.id === parseInt(id));
 
     if (!selectedHotel) {
         return <div>Loading...</div>;
     }
 
-    // Destructure the properties from selectedHotel if it's not undefined
     const {
         estate_title,
-        segment_name,
         description,
         price,
         status_area,
         location,
         image,
         facilities,
-        amenities,
         room_types,
         activities,
         dining_options,
@@ -151,8 +147,6 @@ const Details = () => {
                                             <FaFeatherPointed />
                                             <p className="text-gray-600" >{facilitie}</p>
                                         </div>
-
-
                                     )
                                 }
                             </div>

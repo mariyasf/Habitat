@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import CategoryList from "./CategoryList";
-import Luxury from "../../Components/Luxury";
-import Resort from "../../Components/Resort";
+import HotealCategryList from "./HotealCategryList";
+
 
 const Hotel = () => {
     document.title = 'Hotel'
-
+    
+    const segment = 'luxury';
     const [hotelCategory, sethotelCategory] = useState([]);
     const [sortBy, setSortBy] = useState('');
-    const [selectedCategoryList, setSelectedCategoryList] = useState('luxury');
+    const [selectedCategoryList, setSelectedCategoryList] = useState(segment);
 
     const handleSortBy = (event) => {
         setSortBy(event.target.value);
@@ -62,11 +63,15 @@ const Hotel = () => {
                     {
 
                         selectedCategoryList === 'luxury' &&
-                        <Luxury sortBy={sortBy} />
+                        <HotealCategryList
+                            segment={'luxury'}
+                            sortBy={sortBy} />
                     }
                     {
                         selectedCategoryList === 'resort' &&
-                        <Resort sortBy={sortBy} />
+                        <HotealCategryList
+                            segment={'resort'}
+                            sortBy={sortBy} />
                     }
 
                 </div>

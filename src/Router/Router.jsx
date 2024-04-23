@@ -36,7 +36,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/hotel/:segment_name/:id",
-                element: <PrivateRoute><Details /></PrivateRoute>
+                element: <PrivateRoute><Details  /></PrivateRoute>
             },
         ]
     },

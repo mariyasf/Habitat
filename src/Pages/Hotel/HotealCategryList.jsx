@@ -1,18 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import HotelList from './HotelList';
-const url = '/data/luxury.json'
+import HotelList from '../../Components/HotelList';
 
-const Luxury = () => {
+const HotealCategryList = ({ segment }) => {
     const [list, setList] = useState([]);
 
+
     useEffect(() => {
+        const url = `/data/${segment}.json`
+
         fetch(url)
             .then(res => res.json(url))
             .then(data => {
                 setList(data);
             })
 
-    }, [])
+    }, [segment])
 
     return (
         <div >
@@ -24,7 +26,7 @@ const Luxury = () => {
                         <HotelList
                             key={iteam.id}
                             iteam={iteam}
-                            url={url}></HotelList>
+                        ></HotelList>
                     )
                 }
             </div>
@@ -32,4 +34,4 @@ const Luxury = () => {
     );
 };
 
-export default Luxury;
+export default HotealCategryList;

@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
-const url = '/data/luxury.json'
 
-const UseDetalilsData = () => {
+
+const UseDetalilsData = (segment) => {
     const [data, setData] = useState([]);
+
+    console.log('YES');
 
 
     useEffect(() => {
+        const url = `/data/${segment}.json`
         const fetchData = async () => {
             const res = await fetch(url)
             const data = await res.json()
@@ -15,7 +18,8 @@ const UseDetalilsData = () => {
         fetchData();
 
 
-    }, []);
+    }, [segment]);
+
 
     return { data };
 };

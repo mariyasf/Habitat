@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Beachfront Paradise Resort",
+        "segment_name": "Resort",
+        "description": "Experience the ultimate beachfront getaway at our luxurious resort.",
+        "price": 700,
+        "status_area": "3000 sq ft",
+        "location": "Tropical Island",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/461884685.jpg?k=7bfe79838fdfc4cc0d25c0b0a0950f434ddde50ed06488fe54665ce9816a5dfe&o=&hp=1",
+        "facilities": [
+            "Infinity Pool",
+            "Private Beach Access",
+            "Spa & Wellness Center",
+            "Outdoor Event Venue"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Concierge Service",
+            "Fitness Center",
+            "Water Sports Equipment Rentals"
+        ],
+        "room_types": [
+            "Beachfront Villa",
+            "Overwater Bungalow",
+            "Private Residence"
+        ],
+        "activities": [
+            "Snorkeling",
+            "Dolphin Watching",
+            "Sunset Cruises",
+            "Island Hopping"
+        ],
+        "dining_options": [
+            "Beachfront Restaurant",
+            "Tiki Bar",
+            "Sunset Lounge"
+        ],
+        "transportation": [
+            "Boat Transfers",
+            "Helipad"
+        ]
+    },
+    {
+        "id": 2,
+        "estate_title": "Mountain Retreat Resort",
+        "segment_name": "Resort",
+        "description": "Escape to the tranquility of the mountains and indulge in luxury amidst nature's beauty.",
+        "price": 600,
+        "status_area": "2500 sq ft",
+        "location": "Alpine Valley",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKxq8bCV7_o733XpQxH4sZTUD-_Mkz842mNmAzdz3KkQ&shttps://www.gocalaveras.com/wp-content/uploads/2016/12/mountain-retreat-resort-03.jpg",
+        "facilities": [
+            "Heated Indoor Pool",
+            "Jacuzzi",
+            "Fine Dining Restaurant",
+            "Conference Center"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Spa Services",
+            "Fitness Center",
+            "Ski Equipment Rentals"
+        ],
+        "room_types": [
+            "Mountain View Suite",
+            "Luxury Cabin",
+            "Presidential Suite"
+        ],
+        "activities": [
+            "Hiking Trails",
+            "Skiing",
+            "Mountain Biking",
+            "Wildlife Tours"
+        ],
+        "dining_options": [
+            "Mountain View Restaurant",
+            "Apres-Ski Bar",
+            "Coffee Shop"
+        ],
+        "transportation": [
+            "Shuttle to Ski Resort",
+            "Heliport"
+        ]
+    },
+    {
+        "id": 3,
+        "estate_title": "Lakeside Retreat Resort",
+        "segment_name": "Resort",
+        "description": "Experience serenity and relaxation at our lakeside retreat resort.",
+        "price": 800,
+        "status_area": "3500 sq ft",
+        "location": "Lakefront Oasis",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/de/23/2d/the-lakeside-retreat.jpg?w=700&h=-1&s=1https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/de/23/2d/the-lakeside-retreat.jpg?w=700&h=-1&s=1",
+        "facilities": [
+            "Lakeside Pool",
+            "Spa & Wellness Center",
+            "Gourmet Restaurant",
+            "Event Space"
+        ],
+        "amenities": [
+            "Free Wi-Fi",
+            "24-Hour Concierge",
+            "Business Center",
+            "Valet Parking"
+        ],
+        "room_types": [
+            "Lakeview Suite",
+            "Executive Villa",
+            "Penthouse Apartment"
+        ],
+        "activities": [
+            "Lake Cruises",
+            "Fishing",
+            "Kayaking",
+            "Golf Course Nearby"
+        ],
+        "dining_options": [
+            "Lakefront Restaurant",
+            "Poolside Bar",
+            "Lounge & Nightclub"
+        ],
+        "transportation": [
+            "Airport Transfer",
+            "Boat Rentals"
+        ]
+    },
+    {
+        "id": 4,
+        "estate_title": "Ski Resort Lodge",
+        "segment_name": "Resort",
+        "description": "Embrace winter adventure at our cozy ski resort lodge.",
+        "price": 750,
+        "status_area": "3200 sq ft",
+        "location": "Snowy Mountains",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTzzwSSvo_YMe2dk7thQbHKlwRcucnmcvorjP49-eiQA&s",
+        "facilities": [
+            "Ski-in/Ski-out Access",
+            "Heated Outdoor Pool",
+            "Sauna",
+            "Fine Dining Restaurant"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Concierge Service",
+            "Fitness Center",
+            "Ski Equipment Rentals"
+        ],
+        "room_types": [
+            "Slope View Suite",
+            "Luxury Chalet",
+            "Presidential Cabin"
+        ],
+        "activities": [
+            "Skiing",
+            "Snowboarding",
+            "Snowshoeing",
+            "Snowmobiling"
+        ],
+        "dining_options": [
+            "Slope-side Restaurant",
+            "Apres-Ski Bar",
+            "Fireside Lounge"
+        ],
+        "transportation": [
+            "Shuttle to Ski Slopes",
+            "Helipad"
+        ]
+    },
+    {
+        "id": 5,
+        "estate_title": "Desert Oasis Resort",
+        "segment_name": "Resort",
+        "description": "Discover luxury amidst the beauty of the desert landscape at our desert oasis resort.",
+        "price": 900,
+        "status_area": "3800 sq ft",
+        "location": "Sahara Desert",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/2b/03/c6/06/swimming-pool.jpg",
+        "facilities": [
+            "Oasis Pool",
+            "Spa & Wellness Center",
+            "Casino",
+            "Outdoor Event Venue"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Concierge Service",
+            "Fitness Center",
+            "Business Center"
+        ],
+        "room_types": [
+            "Desert View Suite",
+            "Luxury Tent",
+            "Private Villa"
+        ],
+        "activities": [
+            "Camel Riding",
+            "Desert Safaris",
+            "Star Gazing",
+            "Golf Course Nearby"
+        ],
+        "dining_options": [
+            "Desert-themed Restaurant",
+            "Poolside Bar",
+            "Lounge & Nightclub"
+        ],
+        "transportation": [
+            "Airport Transfer",
+            "Off-road Vehicle Rentals"
+        ]
+    },
+    {
+        "id": 6,
+        "estate_title": "Tropical Rainforest Resort",
+        "segment_name": "Resort",
+        "description": "Immerse yourself in nature's splendor at our tropical rainforest resort.",
+        "price": 850,
+        "status_area": "3600 sq ft",
+        "location": "Jungle Paradise",
+        "image": "https://media.cntraveler.com/photos/5defb719d606100008e7420f/16:9/w_2580,c_limit/Four-Seasons-Resort-Bali-at-Sayan_2019_Resort-Exterior.jpg",
+        "facilities": [
+            "Rainforest Pool",
+            "Spa & Wellness Center",
+            "Jungle Trekking Trails",
+            "Gourmet Restaurant"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Concierge Service",
+            "Fitness Center",
+            "Adventure Equipment Rentals"
+        ],
+        "room_types": [
+            "Rainforest View Suite",
+            "Canopy Treehouse",
+            "Private Bungalow"
+        ],
+        "activities": [
+            "Guided Jungle Tours",
+            "Canopy Ziplining",
+            "Birdwatching",
+            "River Rafting"
+        ],
+        "dining_options": [
+            "Rainforest Restaurant",
+            "Tiki Bar",
+            "Waterfall Cafe"
+        ],
+        "transportation": [
+            "Airport Transfer",
+            "Riverboat Shuttle"
+        ]
+    }
+]

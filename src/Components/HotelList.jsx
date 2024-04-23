@@ -2,7 +2,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { RiHotelLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-const HotelList = ({ iteam, url }) => {
+const HotelList = ({ iteam }) => {
     const { estate_title,
         id,
         segment_name,
@@ -12,6 +12,8 @@ const HotelList = ({ iteam, url }) => {
         location,
         image
     } = iteam;
+
+    console.log(iteam);
 
 
     return (
