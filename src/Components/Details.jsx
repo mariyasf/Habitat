@@ -2,11 +2,14 @@ import { useParams } from "react-router-dom";
 import UseDetalilsData from "../Hooks/UseDetalilsData";
 import { MdAddIcCall, MdFreeBreakfast, MdOutlineDinnerDining, MdOutlineFitnessCenter, MdRoomService } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
-import { FaFeatherPointed, FaLocationDot, FaPersonWalkingLuggage } from "react-icons/fa6";
+import { FaFeatherPointed, FaLocationDot, FaPersonWalkingLuggage, FaTruckPlane } from "react-icons/fa6";
 import { RiHotelFill } from "react-icons/ri";
-import { FaPlaceOfWorship, FaSpa, FaWifi } from "react-icons/fa";
+import { FaPlaceOfWorship, FaPlane, FaSpa, FaWifi } from "react-icons/fa";
 import { SiSecurityscorecard } from "react-icons/si";
-import s1 from '../assets/images/s1.jpg'
+import s1 from '../assets/images/s1.png'
+import { GoogleMap } from "@react-google-maps/api";
+import { LuPlane } from "react-icons/lu";
+import { TiTick } from "react-icons/ti";
 
 const Details = () => {
     const { data } = UseDetalilsData();
@@ -32,24 +35,25 @@ const Details = () => {
         amenities,
         room_types,
         activities,
-        dining_options
+        dining_options,
+        transportation
     } = selectedHotel;
 
     return (
         <div className="mt-10">
             <div className="flex flex-col lg:flex-row bg-base-100 gap-5">
                 <div className="flex-1 ">
-                    <img src={image} className="w-full" alt="Album" />
+                    <img src={image} className="w-full h-[400px]" alt="Album" />
                 </div>
 
-                <div className="p-10 font-poppins flex-1 space-y-5 ">
+                <div className="pl-5 font-poppins flex-1 space-y-5 ">
 
                     <h2 className=" text-sky-500 font-bold text-2xl">
                         {estate_title}
                     </h2>
                     <p className="">{description}</p>
 
-                    <div className="flex justify-between text-sky-500 border-y-2 border-sky-100 py-8">
+                    <div className="px-2 flex justify-between text-sky-500 border-y-2 border-sky-100 py-8">
                         <p>#{segment_name}</p>
                         <p>${price} Per Night</p>
                         <p className="flex items-center gap-2"> <RiHotelFill />
@@ -185,7 +189,7 @@ const Details = () => {
                 </div>
             </div>
             <h2 className="text-4xl mt-10 uppercase text-center py-10 font-bold text-sky-500">
-                Onsite Activites
+                MORE WAYS TO ENJOY YOUR STAY
             </h2>
             <div className="flex flex-col-reverse lg:flex-row-reverse gap-10 mt-5">
                 <div className="flex-1 flex justify-evenly">
@@ -226,6 +230,40 @@ const Details = () => {
                     <img src={s1} className="w-full" alt="" />
                 </div>
             </div>
+
+            <div className="border-t-2 my-10">
+                <h2 className="text-4xl uppercase text-center py-10 font-bold text-sky-500">
+                    Location and transportation
+                </h2>
+                <div className="relative">
+                    <div className="overflow-hidden relative pb-10">
+                        <iframe
+                            className="border-none h-[600px]
+                             bg-gradient-to-b from-transparent
+                              to-black opacity-80"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236153.2182662306!2d91.65422317734475!3d22.3576296099941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8a64095dfd3%3A0x5015cc5bcb6905d9!2sChattogram!5e0!3m2!1sen!2sbd!4v1713867378200!5m2!1sen!2sbd"
+                            width="1200"
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                    <div className="absolute  top-10 right-10 w-96
+                     rounded-xl shadow-inner bg-base-100
+                      p-10 text-sky-500">
+                        <FaTruckPlane className="text-6xl mx-auto absolute 
+                        -top-8 -left-5 shadow-xl rounded-full
+                         bg-white p-1" />
+                        {transportation.map((transport, index) => (
+                            <div key={index} className="flex items-center gap-2 text-xl">
+                                <TiTick />
+                                <p >{transport}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
 
 
         </div>
