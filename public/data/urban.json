@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Metropolitan Heights",
+        "segment_name": "urban",
+        "description": "Experience unparalleled luxury and sophistication in the heart of the bustling city at Metropolitan Heights. From its sleek modern design to its world-class amenities and personalized services, every aspect of your stay is crafted to exceed your expectations.",
+        "price": 550,
+        "status_area": "2100 sq ft",
+        "location": "Downtown Metropolis",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Gb8fspd9zfFU4ZU3Xo_DkMnrIwWc2ybtCphOi0c93A&s",
+        "facilities": [
+            "Rooftop Infinity Pool",
+            "State-of-the-Art Fitness Center",
+            "Five-Star Dining",
+            "Exclusive Lounge & Bar"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Business Center",
+            "Valet Parking",
+            "Complimentary Wi-Fi"
+        ],
+        "room_types": [
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
+        ],
+        "activities": [
+            "City Tours",
+            "Art Gallery Visits",
+            "Theater Shows",
+            "Shopping Excursions"
+        ],
+        "dining_options": [
+            "Rooftop Fine Dining",
+            "Gourmet Restaurant",
+            "Cocktail Bar",
+            "Café & Bakery"
+        ],
+        "transportation": [
+            "Chauffeured Limousine Service",
+            "Metro Access",
+            "Airport Shuttle"
+        ]
+    },
+    {
+        "id": 2,
+        "estate_title": "Skyline Suites",
+        "segment_name": "urban",
+        "description": "Elevate your urban experience with unparalleled luxury at Skyline Suites. Perched high above the city, our luxurious accommodations offer breathtaking views, sophisticated amenities, and personalized service to ensure an unforgettable stay.",
+        "price": 600,
+        "status_area": "2200 sq ft",
+        "location": "Downtown Metropolis",
+        "image": "https://cdn.webhotelier.net/photos/w=1920/skyliner/L396267.jpg",
+        "facilities": [
+            "Skyline Pool with Panoramic Views",
+            "Spa & Wellness Center",
+            "Rooftop Lounge",
+            "Fine Dining Restaurant"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Business Center",
+            "Valet Parking",
+            "Complimentary Wi-Fi"
+        ],
+        "room_types": [
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
+        ],
+        "activities": [
+            "City Tours",
+            "Shopping Excursions",
+            "Museum Visits",
+            "Nightlife Experiences"
+        ],
+        "dining_options": [
+            "Rooftop Bar & Grill",
+            "Gourmet Restaurant",
+            "Cocktail Lounge",
+            "Café"
+        ],
+        "transportation": [
+            "Chauffeured Limousine Service",
+            "Metro Access",
+            "Airport Shuttle"
+        ]
+    },
+    {
+        "id": 3,
+        "estate_title": "Central Plaza Residences",
+        "segment_name": "urban",
+        "description": "Discover urban at its finest at Central Plaza Residences. Located in the heart of the city, our luxurious residences offer sophisticated design, upscale amenities, and personalized service, ensuring an unparalleled living experience.",
+        "price": 650,
+        "status_area": "2300 sq ft",
+        "location": "Downtown Metropolis",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/11/a0/08/06/central-plaza-apartments.jpg",
+        "facilities": [
+            "Central Plaza Pool & Spa",
+            "Fitness Center with City Views",
+            "Gourmet Dining",
+            "Exclusive Club Lounge"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Business Center",
+            "Valet Parking",
+            "Complimentary Wi-Fi"
+        ],
+        "room_types": [
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
+        ],
+        "activities": [
+            "City Tours",
+            "Shopping Excursions",
+            "Fine Dining Experiences",
+            "Art Gallery Visits"
+        ],
+        "dining_options": [
+            "Gourmet Restaurant",
+            "Club Lounge",
+            "Café",
+            "Rooftop Bar"
+        ],
+        "transportation": [
+            "Chauffeured Limousine Service",
+            "Metro Access",
+            "Airport Shuttle"
+        ]
+    }
+]

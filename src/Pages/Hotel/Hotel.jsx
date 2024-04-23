@@ -5,7 +5,7 @@ import HotealCategryList from "./HotealCategryList";
 
 const Hotel = () => {
     document.title = 'Hotel'
-    
+
     const segment = 'luxury';
     const [hotelCategory, sethotelCategory] = useState([]);
     const [sortBy, setSortBy] = useState('');
@@ -47,30 +47,15 @@ const Hotel = () => {
                     <h2 className=" text-2xl text-sky-500 font-poppins font-bold text-center border-b mx-auto">
                         EXPLORE <span className="uppercase">{selectedCategoryList}</span>
                     </h2>
-                    <select name="" id=""
-                        onChange={handleSortBy}
-                        className="p-4 rounded-2xl border
-                      ">
-                        <option className="bg-white text-black" value="">Short By</option>
-                        <option className="bg-white text-black" value="rating">Rating</option>
-                        <option className="bg-white text-black" value="price">Prices</option>
-
-                    </select>
                 </div>
 
                 <div className="mx-10 border-t-2">
 
                     {
 
-                        selectedCategoryList === 'luxury' &&
+                        selectedCategoryList &&
                         <HotealCategryList
-                            segment={'luxury'}
-                            sortBy={sortBy} />
-                    }
-                    {
-                        selectedCategoryList === 'resort' &&
-                        <HotealCategryList
-                            segment={'resort'}
+                            segment={selectedCategoryList}
                             sortBy={sortBy} />
                     }
 

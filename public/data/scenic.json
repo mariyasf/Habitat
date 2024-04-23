@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Tranquil Heights Retreat",
+        "segment_name": "scenic",
+        "description": "Nestled amidst breathtaking mountain vistas, Tranquil Heights Retreat offers a serene escape into nature's embrace. Experience luxury in harmony with the scenic beauty that surrounds you, where every detail is designed to elevate your senses and soothe your soul.",
+        "price": 750,
+        "status_area": "2800 sq ft",
+        "location": "Mountain Sanctuary",
+        "image": "https://example.com/image1.jpg",
+        "facilities": [
+            "Panoramic Mountain Views",
+            "Outdoor Infinity Pool",
+            "Nature-inspired Spa",
+            "Alpine Dining Pavilion"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Hiking Trails Access",
+            "Fitness Center with Mountain Views",
+            "Nature Excursions"
+        ],
+        "room_types": [
+            {
+                "rname": "Mountain View Suite",
+                "rimage": "https://example.com/room1.jpg"
+            },
+            {
+                "rname": "Alpine Chalet",
+                "rimage": "https://example.com/room2.jpg"
+            },
+            {
+                "rname": "Scenic Retreat Villa",
+                "rimage": "https://example.com/room3.jpg"
+            }
+        ],
+        "activities": [
+            "Hiking Adventures",
+            "Mountain Biking",
+            "Nature Walks",
+            "Alpine Picnics"
+        ],
+        "dining_options": [
+            "Alpine Restaurant",
+            "Mountain View Bar",
+            "Lakeside Café",
+            "Scenic Terrace Dining"
+        ],
+        "transportation": [
+            "Airport Shuttle",
+            "Car Rental Service",
+            "Hiking Trail Transfers"
+        ]
+    },
+    {
+        "id": 2,
+        "estate_title": "Serenity Valley Lodge",
+        "segment_name": "scenic",
+        "description": "Discover tranquility amidst lush green valleys at Serenity Valley Lodge. Surrounded by pristine nature and breathtaking landscapes, our luxurious retreat offers a serene sanctuary where you can unwind, rejuvenate, and reconnect with the beauty of the natural world.",
+        "price": 700,
+        "status_area": "2500 sq ft",
+        "location": "Valley Retreat",
+        "image": "https://example.com/image2.jpg",
+        "facilities": [
+            "Valley View Suites",
+            "Outdoor Jacuzzi",
+            "Nature-inspired Spa & Wellness Center",
+            "Gourmet Dining Pavilion"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Nature Walks Access",
+            "Fitness Center with Valley Views",
+            "Guided Nature Tours"
+        ],
+        "room_types": [
+            {
+                "rname": "Valley View Suite",
+                "rimage": "https://example.com/room4.jpg"
+            },
+            {
+                "rname": "Riverside Cabin",
+                "rimage": "https://example.com/room5.jpg"
+            },
+            {
+                "rname": "Scenic Lodge Villa",
+                "rimage": "https://example.com/room6.jpg"
+            }
+        ],
+        "activities": [
+            "Nature Walks",
+            "Bird Watching",
+            "Wildlife Photography",
+            "Stargazing"
+        ],
+        "dining_options": [
+            "Valley View Restaurant",
+            "Riverside Dining Deck",
+            "Mountain Barbecue",
+            "Al Fresco Dining"
+        ],
+        "transportation": [
+            "Airport Shuttle",
+            "Car Rental Service",
+            "Nature Trail Transfers"
+        ]
+    },
+    {
+        "id": 3,
+        "estate_title": "Panoramic Vista Lodge",
+        "segment_name": "scenic",
+        "description": "Immerse yourself in the awe-inspiring beauty of panoramic vistas at Panoramic Vista Lodge. Perched atop a scenic hillside, our luxurious retreat offers unparalleled views of rolling hills, verdant valleys, and distant horizons, providing the perfect backdrop for a memorable escape.",
+        "price": 800,
+        "status_area": "3000 sq ft",
+        "location": "Hilltop Haven",
+        "image": "https://example.com/image3.jpg",
+        "facilities": [
+            "Hilltop Infinity Pool",
+            "Scenic Terrace with Sunset Views",
+            "Hillside Spa & Wellness Retreat",
+            "Gourmet Dining Pavilion"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Scenic Nature Walks Access",
+            "Fitness Center with Panoramic Views",
+            "Guided Photography Tours"
+        ],
+        "room_types": [
+            {
+                "rname": "Panoramic Suite",
+                "rimage": "https://example.com/room7.jpg"
+            },
+            {
+                "rname": "Hillside Villa",
+                "rimage": "https://example.com/room8.jpg"
+            },
+            {
+                "rname": "Scenic Retreat Residence",
+                "rimage": "https://example.com/room9.jpg"
+            }
+        ],
+        "activities": [
+            "Scenic Nature Walks",
+            "Sunset Yoga",
+            "Panoramic Photography",
+            "Stargazing Nights"
+        ],
+        "dining_options": [
+            "Panoramic Dining Terrace",
+            "Sunset Bar & Lounge",
+            "Hillside BBQ Pavilion",
+            "Al Fresco Dining Deck"
+        ],
+        "transportation": [
+            "Airport Shuttle",
+            "Car Rental Service",
+            "Hiking Trail Transfers"
+        ]
+    }
+]

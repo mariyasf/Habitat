@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Coastal Haven Resort",
+        "segment_name": "seaside",
+        "description": "Escape to the tranquil shores of Coastal Haven Resort, where luxury meets the serenity of the sea. Nestled along pristine beaches, our resort offers breathtaking ocean views, exquisite accommodations, and unparalleled amenities for an unforgettable coastal getaway.",
+        "price": 700,
+        "status_area": "2500 sq ft",
+        "location": "Seaside Paradise",
+        "image": "https://example.com/image1.jpg",
+        "facilities": [
+            "Infinity Pool Overlooking the Ocean",
+            "Private Beach Cabanas",
+            "Oceanfront Spa",
+            "Beachside Bar & Grill"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Complimentary Beach Towels",
+            "Fitness Center with Ocean Views",
+            "Water Sports Equipment Rentals"
+        ],
+        "room_types": [
+            {
+                "rname": "Ocean View Suite",
+                "rimage": "https://example.com/room1.jpg"
+            },
+            {
+                "rname": "Beachfront Villa",
+                "rimage": "https://example.com/room2.jpg"
+            },
+            {
+                "rname": "Seaside Bungalow",
+                "rimage": "https://example.com/room3.jpg"
+            }
+        ],
+        "activities": [
+            "Snorkeling Adventures",
+            "Sunset Sailing",
+            "Beach Yoga",
+            "Jet Ski Rentals"
+        ],
+        "dining_options": [
+            "Beachfront Restaurant",
+            "Ocean View Lounge",
+            "Tiki Bar",
+            "Poolside Café"
+        ],
+        "transportation": [
+            "Airport Shuttle",
+            "Boat Transfers",
+            "Car Rental Service"
+        ]
+    },
+    {
+        "id": 2,
+        "estate_title": "Seaview Retreat",
+        "segment_name": "Seaside Luxury",
+        "description": "Experience the ultimate seaside luxury at Seaview Retreat, where every moment is a celebration of coastal living. With luxurious accommodations, panoramic ocean views, and world-class amenities, your seaside escape awaits.",
+        "price": 800,
+        "status_area": "2800 sq ft",
+        "location": "Oceanfront Oasis",
+        "image": "https://example.com/image2.jpg",
+        "facilities": [
+            "Oceanfront Infinity Pool",
+            "Private Beach Access",
+            "Spa & Wellness Center",
+            "Beachside Dining Pavilion"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Complimentary Beach Towels",
+            "Fitness Center with Ocean Views",
+            "Water Sports Equipment Rentals"
+        ],
+        "room_types": [
+            {
+                "rname": "Seaview Suite",
+                "rimage": "https://example.com/room4.jpg"
+            },
+            {
+                "rname": "Beachfront Villa",
+                "rimage": "https://example.com/room5.jpg"
+            },
+            {
+                "rname": "Ocean Retreat Bungalow",
+                "rimage": "https://example.com/room6.jpg"
+            }
+        ],
+        "activities": [
+            "Sunset Cruises",
+            "Kayaking Adventures",
+            "Beach Volleyball",
+            "Surfing Lessons"
+        ],
+        "dining_options": [
+            "Beachfront Restaurant",
+            "Ocean View Bar",
+            "Poolside Grill",
+            "Café & Bakery"
+        ],
+        "transportation": [
+            "Airport Shuttle",
+            "Boat Transfers",
+            "Car Rental Service"
+        ]
+    },
+    {
+        "id": 3,
+        "estate_title": "Azure Sands Resort",
+        "segment_name": "Seaside Luxury",
+        "description": "Discover the epitome of seaside luxury at Azure Sands Resort, where pristine beaches and azure waters await. Indulge in luxurious accommodations, world-class amenities, and personalized service amidst the stunning coastal landscape.",
+        "price": 750,
+        "status_area": "2600 sq ft",
+        "location": "Tropical Coastal Haven",
+        "image": "https://example.com/image3.jpg",
+        "facilities": [
+            "Infinity Pool with Ocean Views",
+            "Private Beach Cabanas",
+            "Oceanfront Spa & Wellness Center",
+            "Beachside Dining Terrace"
+        ],
+        "amenities": [
+            "24-Hour Concierge",
+            "Complimentary Beach Towels",
+            "Fitness Center with Ocean Views",
+            "Water Sports Equipment Rentals"
+        ],
+        "room_types": [
+            {
+                "rname": "Oceanfront Suite",
+                "rimage": "https://example.com/room7.jpg"
+            },
+            {
+                "rname": "Beach Villa",
+                "rimage": "https://example.com/room8.jpg"
+            },
+            {
+                "rname": "Coastal Retreat Bungalow",
+                "rimage": "https://example.com/room9.jpg"
+            }
+        ],
+        "activities": [
+            "Snorkeling Expeditions",
+            "Sunset Catamaran Cruises",
+            "Beachside Yoga",
+            "Stand-up Paddleboarding"
+        ],
+        "dining_options": [
+            "Oceanfront Restaurant",
+            "Beach Bar & Grill",
+            "Poolside Café",
+            "Tropical Smoothie Bar"
+        ],
+        "transportation": [
+            "Airport Shuttle",
+            "Boat Transfers",
+            "Car Rental Service"
+        ]
+    }
+]
