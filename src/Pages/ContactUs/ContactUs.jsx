@@ -1,5 +1,6 @@
 
 const ContactUs = () => {
+    document.title = 'Contact Us'
     return (
 
         <div className="container px-6 md:px-12 my-16">
@@ -51,7 +52,7 @@ const ContactUs = () => {
                             </button>
                         </form>
                     </div>
-                    
+
                     <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
                         <div className="flex flex-wrap">
                             <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">

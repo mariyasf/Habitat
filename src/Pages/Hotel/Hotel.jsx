@@ -3,12 +3,12 @@ import CategoryList from "./CategoryList";
 import Luxury from "../../Components/Luxury";
 import Resort from "../../Components/Resort";
 
-
 const Hotel = () => {
+    document.title = 'Hotel'
+
     const [hotelCategory, sethotelCategory] = useState([]);
     const [sortBy, setSortBy] = useState('');
     const [selectedCategoryList, setSelectedCategoryList] = useState('luxury');
-
 
     const handleSortBy = (event) => {
         setSortBy(event.target.value);
@@ -58,7 +58,9 @@ const Hotel = () => {
                 </div>
 
                 <div className="mx-10 border-t-2">
+
                     {
+
                         selectedCategoryList === 'luxury' &&
                         <Luxury sortBy={sortBy} />
                     }

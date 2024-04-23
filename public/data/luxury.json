@@ -1,0 +1,308 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Luxury Beach Resort",
+        "segment_name": "Luxury",
+        "description": "Indulge in the epitome of luxury and tranquility at our breathtaking beachfront resort. Experience unparalleled opulence as you immerse yourself in the soothing ambiance and panoramic ocean views that surround you. Whether you're lounging by the infinity pool, strolling along the pristine shores of our private beach, or indulging in world-class spa treatments, every moment is a celebration of refined living. Savor exquisite culinary delights at our fine dining restaurant, where culinary masterpieces await to tantalize your taste buds.",
+        "price": 500,
+        "status_area": "2000 sq ft",
+        "location": "Tropical Paradise Island",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXEyk9ZnIrhG7RXYS710zQ0jJB8nRj9s4nnuseY5sLg&s",
+        "facilities": [
+            "Infinity Pool",
+            "Private Beach Access",
+            "Spa & Wellness Center",
+            "Fine Dining Restaurant"
+        ],
+        "amenities": [
+            "Free Wi-Fi",
+            "24-Hour Room Service",
+            "Fitness Center",
+            "Concierge Service"
+        ],
+        "room_types": [
+            {
+                "rname": "Deluxe Room",
+                "rimage": "https://www.peninsula.com/en/-/media/pbk/rooms/deluxe-room-twin-bed.jpg?mw=905&hash=9515693D3D8455DE1F48031E23A9C6BA"
+            },
+            {
+                "rname": "Ocean View Suite",
+                "rimage": "https://www.turtlebayresort.com/sites/default/files/2022-04/Suites_Full_Balcony_web.jpg"
+            },
+            {
+                "rname": "Private Villa",
+                "rimage": "https://thepassage.s3.ap-southeast-1.amazonaws.com/gallery/room/ACC_941679_AC11240923_TB-ThePassage-Deluxe-023-min.jpg"
+            }
+        ],
+        "activities": [
+            "Snorkeling",
+            "Sunset Cruises",
+            "Yoga Classes",
+            "Golf Course Nearby"
+        ],
+        "dining_options": [
+            "Oceanfront Restaurant",
+            "Beachside Bar & Grill",
+            "Cocktail Lounge"
+        ],
+        "transportation": [
+            "Airport Shuttle",
+            "Car Rental Service"
+        ]
+    },
+    {
+        "id": 2,
+        "estate_title": "Mountain Retreat Lodge",
+        "segment_name": "Luxury",
+        "description": "Escape to the tranquility of the mountains and indulge in luxury amidst nature's beauty.",
+        "price": 600,
+        "status_area": "2500 sq ft",
+        "location": "Alpine Valley",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/535272546.jpg?k=a8bff9cd72d0c1de63f6ec2015060621645f62baeadff1a7e82aa32275a13fdb&o=&hp=1",
+        "facilities": [
+            "Heated Indoor Pool",
+            "Jacuzzi",
+            "Fine Dining Restaurant",
+            "Conference Center"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Spa Services",
+            "Fitness Center",
+            "Ski Equipment Rentals"
+        ],
+        "room_types": [
+            {
+                "rname": "Mountain View Suite",
+                "rimage": "https://www.turtlebayresort.com/sites/default/files/2022-04/Suites_Full_Balcony_web.jpg"
+            },
+            {
+                "rname": "Luxury Cabin",
+                "rimage": "https://www.thespruce.com/thmb/P_mQePp2EvTl0_C8s8Q3g0dxGiE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/log-cabin-56a4a0633df78cf772835f8b.jpg"
+            },
+            {
+                "rname": "Presidential Suite",
+                "rimage": "https://pix6.agoda.net/hotelImages/5472994/-1/5472994_19081813230077361899.jpg?s=1024x768"
+            }
+        ],
+        "activities": [
+            "Hiking Trails",
+            "Skiing",
+            "Mountain Biking",
+            "Wildlife Tours"
+        ],
+        "dining_options": [
+            "Mountain View Restaurant",
+            "Apres-Ski Bar",
+            "Coffee Shop"
+        ],
+        "transportation": [
+            "Shuttle to Ski Resort",
+            "Heliport"
+        ]
+    },
+    {
+        "id": 3,
+        "estate_title": "Urban Oasis Hotel",
+        "segment_name": "Luxury",
+        "description": "Discover a sanctuary of sophistication in the heart of the city.",
+        "price": 450,
+        "status_area": "1800 sq ft",
+        "location": "Downtown Metropolis",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290535822.jpg?k=93b85cfd2d59a5e5fe829d2ebda6d45303fba358c1f338558f6767e93974f6f5&o=&hp=1",
+        "facilities": [
+            "Rooftop Pool",
+            "Spa & Wellness Center",
+            "Gourmet Restaurant",
+            "Event Space"
+        ],
+        "amenities": [
+            "High-Speed Internet",
+            "24-Hour Concierge",
+            "Business Center",
+            "Valet Parking"
+        ],
+        "room_types": [
+            {
+                "rname": "City View Room",
+                "rimage": "https://images.unsplash.com/photo-1504261168441-a774d90e2fb2"
+            },
+            {
+                "rname": "Executive Suite",
+                "rimage": "https://images.unsplash.com/photo-1523436886823-a8e9d74bb147"
+            },
+            {
+                "rname": "Penthouse Apartment",
+                "rimage": "https://images.unsplash.com/photo-1604585316366-1893f4e6623c"
+            }
+        ],
+        "activities": [
+            "City Tours",
+            "Shopping Excursions",
+            "Art Gallery Visits",
+            "Theater Shows"
+        ],
+        "dining_options": [
+            "Rooftop Bar & Lounge",
+            "Fine Dining Restaurant",
+            "Coffee Bar"
+        ],
+        "transportation": [
+            "Limousine Service",
+            "Public Transit Access"
+        ]
+    },
+    {
+        "id": 4,
+        "estate_title": "Desert Mirage Resort",
+        "segment_name": "Luxury",
+        "description": "Experience the ultimate luxury retreat amidst the beauty of the desert landscape.",
+        "price": 700,
+        "status_area": "3000 sq ft",
+        "location": "Sahara Oasis",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqiesLcTjyCejaS7zRitYpIGRDbBPaJ0tYrzo057SSZw&s",
+        "facilities": [
+            "Oasis Pool",
+            "Spa & Wellness Center",
+            "Casino",
+            "Outdoor Event Venue"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Concierge Service",
+            "Fitness Center",
+            "Business Center"
+        ],
+        "room_types": [
+            {
+                "rname": "Desert View Suite",
+                "rimage": "https://www.hospitalitynet.org/picture/153152895.jpg"
+            },
+            {
+                "rname": "Luxury Tent",
+                "rimage": "https://media.cntraveler.com/photos/5e240efbdad66a0008178d1b/16:9/w_2560%2Cc_limit/Glamping-Club-Regatas-Sao-Paulo--Brazil-GettyImages-513449682.jpg"
+            },
+            {
+                "rname": "Private Villa",
+                "rimage": "https://images.unsplash.com/photo-1519977063023-6d7f236a805f"
+            }
+        ],
+        "activities": [
+            "Camel Riding",
+            "Desert Safaris",
+            "Star Gazing",
+            "Golf Course Nearby"
+        ],
+        "dining_options": [
+            "Desert-themed Restaurant",
+            "Poolside Bar",
+            "Lounge & Nightclub"
+        ],
+        "transportation": [
+            "Airport Transfer",
+            "Off-road Vehicle Rentals"
+        ]
+    },
+    {
+        "id": 5,
+        "estate_title": "Historic Grand Hotel",
+        "segment_name": "Luxury",
+        "description": "Step back in time and experience timeless elegance at our historic landmark hotel.",
+        "price": 550,
+        "status_area": "2200 sq ft",
+        "location": "Downtown Heritage District",
+        "image": "https://wgnradio.com/wp-content/uploads/sites/6/2023/07/AP8254522200616478.jpg?w=1280",
+        "facilities": [
+            "Grand Ballroom",
+            "Spa & Wellness Center",
+            "Tea Room",
+            "Library Lounge"
+        ],
+        "amenities": [
+            "Complimentary Afternoon Tea",
+            "Concierge Service",
+            "Fitness Center",
+            "Historical Tours"
+        ],
+        "room_types": [
+            {
+                "rname": "Classic Room",
+                "rimage": "https://media.cntraveler.com/photos/5f44e8469dd28dd1f2a8db85/16:9/w_2560%2Cc_limit/Grand-Hotel-Victoria-Jungfrau-Classic-Room-Harder-View.jpg"
+            },
+            {
+                "rname": "Grand Suite",
+                "rimage": "https://media.cntraveler.com/photos/5f44e8469dd28dd1f2a8db85/16:9/w_2560%2Cc_limit/Grand-Hotel-Victoria-Jungfrau-Classic-Room-Harder-View.jpg"
+            },
+            {
+                "rname": "Presidential Wing",
+                "rimage": "https://media.cntraveler.com/photos/5f44e8469dd28dd1f2a8db85/16:9/w_2560%2Cc_limit/Grand-Hotel-Victoria-Jungfrau-Classic-Room-Harder-View.jpg"
+            }
+        ],
+        "activities": [
+            "Walking Tours",
+            "Museum Visits",
+            "Theater Shows",
+            "Fine Dining Experiences"
+        ],
+        "dining_options": [
+            "Fine Dining Restaurant",
+            "Cocktail Lounge",
+            "Traditional Tea Service"
+        ],
+        "transportation": [
+            "Vintage Car Service",
+            "Public Transit Access"
+        ]
+    },
+    {
+        "id": 6,
+        "estate_title": "Island Paradise Retreat",
+        "segment_name": "Luxury",
+        "description": "Escape to a secluded island paradise and unwind in luxurious surroundings.",
+        "price": 650,
+        "status_area": "2800 sq ft",
+        "location": "Exotic Island Hideaway",
+        "image": "https://c.myholidays.com/blog/2023/8/311218_Paradise%20Island%20Resort.webp",
+        "facilities": [
+            "Infinity Pool",
+            "Private Beach Access",
+            "Spa & Wellness Center",
+            "Outdoor Event Venue"
+        ],
+        "amenities": [
+            "Complimentary Breakfast",
+            "Concierge Service",
+            "Fitness Center",
+            "Water Sports Equipment Rentals"
+        ],
+        "room_types": [
+            {
+                "rname": "Beachfront Villa",
+                "rimage": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/297517132.jpg?k=741f9dd52576fc2c8ff4953b4147ff7b0e144f3d0733da1d3e91b35eb09d7e02&o=&hp=1"
+            },
+            {
+                "rname": "Overwater Bungalow",
+                "rimage": "https://www.loveholidays.com/holidays/hotel-pictures/517055/4177395/1"
+            },
+            {
+                "rname": "Private Residence",
+                "rimage": "https://c.myholidays.com/blog/2023/8/311218_Paradise%20Island%20Resort.webp"
+            }
+        ],
+        "activities": [
+            "Snorkeling",
+            "Dolphin Watching",
+            "Sunset Cruises",
+            "Island Hopping"
+        ],
+        "dining_options": [
+            "Beachfront Restaurant",
+            "Tiki Bar",
+            "Sunset Lounge"
+        ],
+        "transportation": [
+            "Boat Transfers",
+            "Helipad"
+        ]
+    }
+]

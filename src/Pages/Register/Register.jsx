@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { sendEmailVerification } from 'firebase/auth';
 
 const Register = () => {
+    document.title = 'register'
     const { createNewUser } = useContext(AuthContext);
     const [showPass, setShowPass] = useState(false);
 

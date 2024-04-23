@@ -3,6 +3,7 @@ import About from "./About";
 import Banner from "./Banner";
 
 const Home = () => {
+    document.title = 'home'
 
 
     return (

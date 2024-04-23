@@ -6,6 +6,7 @@ import Register from "../Pages/Register/Register";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import PrivateRoute from "./PrivateRoute";
 import Hotel from "../Pages/Hotel/Hotel";
+import Details from "../Components/Details";
 
 
 const router = createBrowserRouter([
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
             },
             {
                 path: "/hotel",
-                element: <Hotel/>
+                element: <Hotel />
+            },
+            {
+                path: "/hotel/:segment_name/:id",
+                element: <PrivateRoute><Details /></PrivateRoute>
             },
         ]
     },
