@@ -8,7 +8,7 @@ import { sendEmailVerification } from 'firebase/auth';
 
 const Register = () => {
     document.title = 'register'
-    const { createNewUser } = useContext(AuthContext);
+    const { createNewUser, updateUserProfile } = useContext(AuthContext);
     const [showPass, setShowPass] = useState(false);
 
     const handleRegister = (e) => {
@@ -19,7 +19,9 @@ const Register = () => {
         const name = form.get('name');
         const photo = form.get('photo');
         const email = form.get('email');
+        const imageUrl = form.get('imageUrl');
         const password = form.get('password');
+        const phoneNumber = form.get('phoneNumber');
         const termsAC = e.target.terms.checked;
         console.log(name, photo, email, password);
 
@@ -41,12 +43,29 @@ const Register = () => {
             return toast.error('Please accept our terms and conditions');
         }
 
+        // Check Phone number
+        const phoneNumberRegex = /^\+?[0-9]{10,}$/;
+        if (!phoneNumberRegex.test(phoneNumber)) {
+            toast.error('Invalid Phone Number');
+        }
+
+
         // create new User
         createNewUser(email, password)
             .then(result => {
                 console.log(result.user);
                 toast.success('Registration successful! You can now log in.');
 
+                updateUserProfile(name, imageUrl, phoneNumber)
+                    .then(() => {
+                        toast.success("Profile updated")
+                    })
+                    .catch(error => {
+                        console.log(error);
+                        toast.error('Some problem-----')
+
+
+                    })
                 // Email Verification
 
                 // sendEmailVerification(result.user)
@@ -81,7 +100,13 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Photo URL</span>
                             </label>
-                            <input type="text" name="photo" placeholder="Photo URL" className="input input-bordered" required />
+                            <input type="text" name="imageUrl" placeholder="Photo URL" className="input input-bordered" required />
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Phone Number</span>
+                            </label>
+                            <input type="number" name="phoneNumber" placeholder="Phone Number" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">

@@ -1,11 +1,8 @@
 
 
 const CutomerFeedback = ({ feed }) => {
-    console.log(feed)
-
     const { name, title, feedback } = feed;
-
-
+    
     return (
         <div className="card w-96 bg-base-100 shadow-xl font-poppins mx-4">
             <div className="card-body">

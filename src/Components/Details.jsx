@@ -10,11 +10,9 @@ import UseDetalilsData from "../Hooks/UseDetalilsData";
 import img from '../assets/images/hb1.jpg'
 
 const Details = () => {
+    document.title = 'Room Details'
     const { id, segment_name } = useParams();
     const { data } = UseDetalilsData(segment_name.toLowerCase());
-
-    console.log('Frome details', segment_name.toLowerCase(), id);
-    console.log('Details: ', data);
 
     const selectedHotel = data.find((hotel) => hotel.id === parseInt(id));
 

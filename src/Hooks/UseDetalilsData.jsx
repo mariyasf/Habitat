@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 const UseDetalilsData = (segment) => {
     const [data, setData] = useState([]);
 
-    console.log('YES');
 
 
     useEffect(() => {

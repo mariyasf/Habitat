@@ -57,7 +57,7 @@ const Navbar = () => {
                                 </div>
 
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>Update</a></li>
+                                    <li><Link to={'/profile'}> {user?.displayName || 'User name not found'} </Link></li>
                                     <li><a onClick={handleSignOut}>Logout</a></li>
                                 </ul>
 

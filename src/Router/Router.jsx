@@ -7,13 +7,15 @@ import ContactUs from "../Pages/ContactUs/ContactUs";
 import PrivateRoute from "./PrivateRoute";
 import Hotel from "../Pages/Hotel/Hotel";
 import Details from "../Components/Details";
-import BookedRoom from "../Pages/BookedRoom/BookedRoom";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import UserProfile from "../Pages/UserProfile/UserProfile";
 
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/",
@@ -40,8 +42,8 @@ const router = createBrowserRouter([
                 element: <PrivateRoute><Details /></PrivateRoute>
             },
             {
-                path: "/hotel/booked",
-                element: <PrivateRoute><BookedRoom /></PrivateRoute>
+                path: "/profile",
+                element: <PrivateRoute><UserProfile /></PrivateRoute>
             },
         ]
     },
