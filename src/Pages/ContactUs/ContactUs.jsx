@@ -3,7 +3,7 @@ const ContactUs = () => {
     document.title = 'Contact Us'
     return (
 
-        <div className="container px-6 md:px-12 my-16">
+        <div className="container px-6 md:px-12 my-16 max-w-6xl mx-auto">
             <div
                 className="block rounded-lg bg-[hsla(0,0%,100%,0.8)]
                      px-6 py-12 md:py-16 md:px-12 border border-gray-300">

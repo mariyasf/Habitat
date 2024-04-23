@@ -5,8 +5,8 @@ import Footer from '../../Pages/Shared/Footer';
 const Root = () => {
     return (
         <div>
-            <div className="max-w-6xl mx-auto">
-                <Navbar />
+            <div >
+                <Navbar  />
                 <Outlet />
             </div>
 

@@ -21,9 +21,18 @@
             "Water Sports Equipment Rentals"
         ],
         "room_types": [
-            "Beachfront Villa",
-            "Overwater Bungalow",
-            "Private Residence"
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
         ],
         "activities": [
             "Snorkeling",
@@ -63,9 +72,18 @@
             "Ski Equipment Rentals"
         ],
         "room_types": [
-            "Mountain View Suite",
-            "Luxury Cabin",
-            "Presidential Suite"
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
         ],
         "activities": [
             "Hiking Trails",
@@ -104,11 +122,20 @@
             "Business Center",
             "Valet Parking"
         ],
-        "room_types": [
-            "Lakeview Suite",
-            "Executive Villa",
-            "Penthouse Apartment"
-        ],
+       "room_types": [
+        {
+            "rname": "Cityscape Suite",
+            "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+        },
+        {
+            "rname": "Executive Loft",
+            "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+        },
+        {
+            "rname": "Penthouse Residence",
+            "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+        }
+    ],
         "activities": [
             "Lake Cruises",
             "Fishing",
@@ -147,9 +174,18 @@
             "Ski Equipment Rentals"
         ],
         "room_types": [
-            "Slope View Suite",
-            "Luxury Chalet",
-            "Presidential Cabin"
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
         ],
         "activities": [
             "Skiing",
@@ -189,9 +225,18 @@
             "Business Center"
         ],
         "room_types": [
-            "Desert View Suite",
-            "Luxury Tent",
-            "Private Villa"
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
         ],
         "activities": [
             "Camel Riding",
@@ -231,9 +276,18 @@
             "Adventure Equipment Rentals"
         ],
         "room_types": [
-            "Rainforest View Suite",
-            "Canopy Treehouse",
-            "Private Bungalow"
+            {
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
+            },
+            {
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
+            },
+            {
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
+            }
         ],
         "activities": [
             "Guided Jungle Tours",

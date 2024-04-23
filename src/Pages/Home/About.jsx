@@ -22,7 +22,7 @@ const About = () => {
 
 
             {/* OUR HOTELS */}
-            <div className="lg:flex lg:flex-row-reverse gap-5 ">
+            <div className="lg:flex lg:flex-row-reverse gap-5 px-5">
                 <div className='flex-1'>
                     <img className='mx-auto rounded-2xl' src={h1} alt="" />
                 </div>
@@ -40,7 +40,7 @@ const About = () => {
             </div>
 
             {/* {WORLD - CLASS ACCOMMODATIONS} */}
-            <div className="lg:flex lg:flex-row gap-5 mt-12">
+            <div className="lg:flex lg:flex-row gap-5 mt-12 px-5">
                 <div className='flex-1'>
                     <img className='mx-auto rounded-2xl' src={m1} alt="" />
                 </div>
@@ -59,7 +59,7 @@ const About = () => {
             </div>
 
             {/* {CULINARY EXCELLENCE } */}
-            <div className="lg:flex lg:flex-row-reverse  gap-5 mt-12">
+            <div className="lg:flex lg:flex-row-reverse  gap-5 mt-12 px-5">
                 <div className='flex-1'>
                     <img className='mx-auto rounded-2xl' src={l1} alt="" />
                 </div>
@@ -79,8 +79,10 @@ const About = () => {
 
 
             {/* {LEGENDARY EVENTS} */}
-            <div className="lg:flex gap-5 mt-12">
-                <div className='flex-1'>
+
+
+            <div className="lg:flex gap-5 mt-12 px-5">
+                <div className='flex-1  '>
                     <img className='mx-auto rounded-2xl' src={l2} alt="" />
                 </div>
 

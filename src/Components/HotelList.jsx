@@ -42,7 +42,7 @@ const HotelList = ({ iteam }) => {
                 </div>
                 <div className="card-actions justify-end">
                     <Link to={`/hotel/${segment_name}/${id}`}>
-                        <button className="btn btn-primary">Details</button>
+                        <button className="btn bg-[#0EA5E9] text-white">Details</button>
                     </Link>
 
                 </div>

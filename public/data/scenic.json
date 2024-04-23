@@ -22,16 +22,16 @@
         ],
         "room_types": [
             {
-                "rname": "Mountain View Suite",
-                "rimage": "https://example.com/room1.jpg"
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
             },
             {
-                "rname": "Alpine Chalet",
-                "rimage": "https://example.com/room2.jpg"
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
             },
             {
-                "rname": "Scenic Retreat Villa",
-                "rimage": "https://example.com/room3.jpg"
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
             }
         ],
         "activities": [
@@ -75,16 +75,16 @@
         ],
         "room_types": [
             {
-                "rname": "Valley View Suite",
-                "rimage": "https://example.com/room4.jpg"
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
             },
             {
-                "rname": "Riverside Cabin",
-                "rimage": "https://example.com/room5.jpg"
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
             },
             {
-                "rname": "Scenic Lodge Villa",
-                "rimage": "https://example.com/room6.jpg"
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
             }
         ],
         "activities": [
@@ -128,16 +128,16 @@
         ],
         "room_types": [
             {
-                "rname": "Panoramic Suite",
-                "rimage": "https://example.com/room7.jpg"
+                "rname": "Cityscape Suite",
+                "rimage": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/43/1d/deluxe-room.jpg"
             },
             {
-                "rname": "Hillside Villa",
-                "rimage": "https://example.com/room8.jpg"
+                "rname": "Executive Loft",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj2JzcIXWCmz-36_1jjHJN_IyIgykO7ND39nzuLtbuw&s"
             },
             {
-                "rname": "Scenic Retreat Residence",
-                "rimage": "https://example.com/room9.jpg"
+                "rname": "Penthouse Residence",
+                "rimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPqyUtuEfCPCegDFR8RxzRy021upxjeE8RexBWh27JA&s"
             }
         ],
         "activities": [
