@@ -7,7 +7,7 @@ const UseDetalilsData = (segment) => {
 
 
     useEffect(() => {
-        const url = `/data/${segment}.json`
+        const url = `/${segment}.json`
         const fetchData = async () => {
             const res = await fetch(url)
             const data = await res.json()

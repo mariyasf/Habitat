@@ -40,12 +40,12 @@ const Details = () => {
 
                 <img className='w-full h-[450px]' src={img} alt="" />
                 <div className='bg-slate-500 absolute h-60 w-2/3  bg-opacity-50 text-center p-10'>
-                    <p className='text-4xl text-center pb-5 text-white'>
+                    <p className='text-2xl lg:text-4xl text-center pb-5 text-white'>
                         {estate_title}  Room Details
                     </p>
                     <Link to={'/hotel'}>
-                        <button className='btn bg-[#0EA5E9] w-[400px]
-                         text-white border-none text-2xl'>Back To Hotel</button>
+                        <button className='btn bg-[#0EA5E9] lg:w-[400px]
+                         text-white border-none lg:text-2xl'>Back To Hotel</button>
                     </Link>
                 </div>
             </div>
@@ -72,8 +72,6 @@ const Details = () => {
                         </div>
 
                         <div className="text-end">
-
-
                             <button className="btn bg-[#0EA5E9] text-white"
                                 onClick={() => document.getElementById('book_modal').showModal()}>
                                 Book Now
@@ -164,7 +162,7 @@ const Details = () => {
                         <div className="text-center py-5 font-poppins ">
                             <p>Explore a stay from ${price} per night for your selected dates</p>
                         </div>
-                        <div className="grid grid-cols-3 gap-5">
+                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                             {
                                 room_types.map((roomType, index) => (
                                     <div key={index} className="card card-compact bg-base-100  border">
@@ -187,7 +185,7 @@ const Details = () => {
                                 Facilities on Sites
                             </h2>
 
-                            <div className="flex justify-evenly bg-slate-100 text-xl p-10">
+                            <div className="flex flex-col lg:flex-row gap-4 justify-evenly bg-slate-100 text-xl p-10">
                                 <div>
                                     <div className="flex gap-2 items-center text-3xl font-bold  text-sky-500">
                                         <MdFreeBreakfast />

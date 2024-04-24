@@ -6,7 +6,7 @@ const CustomerReview = () => {
     const [review, setReview] = useState([]);
 
     useEffect(() => {
-        fetch('/data/feedback.json')
+        fetch('/feedback.json')
             .then(res => res.json())
             .then(data => {
                 setReview(data);

@@ -6,7 +6,7 @@ const HotealCategryList = ({ segment }) => {
 
 
     useEffect(() => {
-        const url = `/data/${segment}.json`
+        const url = `/${segment}.json`
 
         fetch(url)
             .then(res => res.json(url))

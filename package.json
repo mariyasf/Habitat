@@ -9,6 +9,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "overrides": {
+    "rollup": "4.15.0"
+  },
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
     "firebase": "^10.11.0",

@@ -2,8 +2,9 @@ import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProviders";
 
 const UserProfile = () => {
+    document.title = 'My Profile'
+
     const { user } = useContext(AuthContext);
-    console.log(user);
     const { displayName, email, phoneNumber, emailVerified } = user;
 
     return (

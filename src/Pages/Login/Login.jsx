@@ -7,7 +7,7 @@ import { FaFacebook, FaGithub, FaGoogle } from "react-icons/fa";
 
 
 const Login = () => {
-    document.title = 'login'
+    document.title = 'Login'
     const { signIn, handleGoogleSignIn, user, handleGithubSignIn } = useContext(AuthContext);
     const [showPass, setShowPass] = useState(false);
     const location = useLocation();
