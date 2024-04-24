@@ -80,10 +80,10 @@ const Navbar = () => {
                         :
                         <div >
                             <Link to={'/login'} className="mr-4">
-                                <button className="btn">Login</button>
+                                <button className="btn bg-[#0EA5E9] text-white">Login</button>
                             </Link>
                             <Link to={'/register'}>
-                                <button className="btn">Register</button>
+                                <button className="btn btn-outline btn-primary">Register</button>
                             </Link>
                         </div >
                 }
