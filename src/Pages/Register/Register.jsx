@@ -58,16 +58,9 @@ const Register = () => {
 
                 // Update Profile
                 updateUserProfile(name, imageUrl, phoneNumber)
-                    .then(() => {
-                        toast.success("Profile updated")
-                    })
-                    .catch(error => {
-                        console.log(error);
-                        toast.error('Some problem-----')
+                    .then()
+                    .catch()
 
-
-                    })
-                
                 // Email Verification
 
                 // sendEmailVerification(result.user)

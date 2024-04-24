@@ -13,10 +13,10 @@ const Navbar = () => {
     }
 
     const navLink = <>
-        <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
-        <li><NavLink to="/contactus" activeClassName="active">Contact Us</NavLink></li>
-        <li><NavLink to="/hotel" activeClassName="active">Hotel</NavLink></li>
-    </>;
+        <li><NavLink exact to="/" activeClassName="isActive">Home</NavLink></li>
+        <li><NavLink exact to="/contactus" activeClassName="isActive">Contact Us</NavLink></li>
+        <li><NavLink exact to="/hotel" activeClassName="isActive">Hotel</NavLink></li>
+    </>
 
     return (
         <div className="navbar bg-base-100 max-w-6xl mx-auto ">
@@ -68,7 +68,7 @@ const Navbar = () => {
                                         </NavLink>
                                     </li>
 
-                                     
+
 
                                     <li>
                                         <a onClick={handleSignOut}>Logout</a>
