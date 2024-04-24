@@ -20,7 +20,7 @@ const HotealCategryList = ({ segment }) => {
         <div >
             {/* <h2>luxury: {list.length}</h2> */}
 
-            <div className='gap-4 mt-5 grid grid-cols-2 lg:grid-cols-3'>
+            <div className='gap-4 mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {
                     list.map(iteam =>
                         <HotelList

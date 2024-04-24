@@ -50,7 +50,7 @@ const Details = () => {
                 </div>
             </div>
 
-            <div className="mt-10 max-w-6xl mx-auto">
+            <div className="mt-10 max-w-6xl mx-auto px-10 lg:px-0">
                 <div className="flex flex-col lg:flex-row bg-base-100 gap-5">
                     <div className="flex-1 ">
                         <img src={image} className="w-full h-[400px]" alt="Album" />

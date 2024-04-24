@@ -40,7 +40,7 @@ const Banner = () => {
                         <div className={`absolute top-0 left-0 w-full h-full 
                         flex flex-col justify-center items-center text-white 
                         ${index === currentSlide ? 'fade-in' : 'fade-out'}`}>
-                            <p className="mx-auto text-4xl p-40 font-semibold text-center">
+                            <p className="mx-auto text-2xl lg:text-4xl p-10 lg:p-40 font-semibold text-center">
                                 {slide.description}
                             </p>
                         </div>

@@ -37,7 +37,7 @@ const Hotel = () => {
                 </div>
             </div>
 
-            <div className='grid lg:grid-cols-3 gap-6  mt-10 max-w-6xl mx-auto'>
+            <div className='grid px-10 lg:px-0 lg:grid-cols-3 gap-6  mt-10 max-w-6xl mx-auto'>
                 <div className="border-r ">
                     <h2 className="text-2xl font-poppins text-sky-500 font-bold pb-5">
                         Category List
@@ -59,7 +59,7 @@ const Hotel = () => {
                         </h2>
                     </div>
 
-                    <div className="mx-10 border-t-2">
+                    <div className="lg:mx-10 border-t-2">
                         {
                             selectedCategoryList &&
                             <HotealCategryList
