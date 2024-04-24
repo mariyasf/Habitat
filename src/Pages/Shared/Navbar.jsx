@@ -1,5 +1,5 @@
-import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProviders";
 import profile from '../../assets/images/user.png'
 
@@ -13,12 +13,11 @@ const Navbar = () => {
     }
 
     const navLink = <>
-        <li><Link to={'/'}>Home</Link></li>
-        <li><Link to={'/contactus'}>Contact Us</Link></li>
-        <li><Link to={'/'}>Team</Link></li>
-        <li><Link to={'/hotel'}>Hotel</Link></li>
+        <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+        <li><NavLink to="/contactus" activeClassName="active">Contact Us</NavLink></li>
+        <li><NavLink to="/hotel" activeClassName="active">Hotel</NavLink></li>
+    </>;
 
-    </>
     return (
         <div className="navbar bg-base-100 max-w-6xl mx-auto ">
             <div className="navbar-start">
@@ -37,7 +36,12 @@ const Navbar = () => {
                     {navLink}
                 </ul>
             </div>
+
             <div className="navbar-end">
+                {
+                    user?.displayName &&
+                    <h2 className="mr-4 text-sky-500">Welcome, {user?.displayName}</h2>
+                }
 
                 {
                     user ?
@@ -56,21 +60,33 @@ const Navbar = () => {
 
                                 </div>
 
-                                <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><Link to={'/profile'}> {user?.displayName || 'User name not found'} </Link></li>
-                                    <li><a onClick={handleSignOut}>Logout</a></li>
+                                <ul tabIndex={0}
+                                    className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li>
+                                        <NavLink to={'/profile'}>
+                                            {user?.displayName || 'User name not found'}
+                                        </NavLink>
+                                    </li>
+
+                                     
+
+                                    <li>
+                                        <a onClick={handleSignOut}>Logout</a>
+                                    </li>
                                 </ul>
 
                             </div>
                         </>
                         :
-                        <Link to={'/login'}>
-                            <button className="btn">Login</button>
-                        </Link>
+                        <div >
+                            <Link to={'/login'} className="mr-4">
+                                <button className="btn">Login</button>
+                            </Link>
+                            <Link to={'/register'}>
+                                <button className="btn">Register</button>
+                            </Link>
+                        </div >
                 }
-
-
-
 
             </div>
         </div>

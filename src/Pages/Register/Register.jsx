@@ -56,6 +56,7 @@ const Register = () => {
                 console.log(result.user);
                 toast.success('Registration successful! You can now log in.');
 
+                // Update Profile
                 updateUserProfile(name, imageUrl, phoneNumber)
                     .then(() => {
                         toast.success("Profile updated")
@@ -66,6 +67,7 @@ const Register = () => {
 
 
                     })
+                
                 // Email Verification
 
                 // sendEmailVerification(result.user)
@@ -127,7 +129,8 @@ const Register = () => {
                                     className="input input-bordered w-full"
                                     required />
                                 {/* Toggle Show password */}
-                                <span className="absolute top-1/3 text-black text-xl"
+                                <span
+                                    className="absolute top-1/3 text-black text-xl"
                                     onClick={() => setShowPass(!showPass)}>
                                     {showPass ? <IoEyeOff /> : <IoEye />}</span>
                             </div>
